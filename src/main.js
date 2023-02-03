@@ -23,4 +23,7 @@ client.once(Events.ClientReady, c => {
 
 
 
+
+
+
 client.login(process.env.TOKEN);
