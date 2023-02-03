@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "dev":"node src/main.js"
+    "dev":"node src/main.js",
+    "commands":"node deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.7.1",
