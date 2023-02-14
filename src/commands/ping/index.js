@@ -1,9 +1,9 @@
 import {SlashCommandBuilder} from 'discord.js';
-const ping = new SlashCommandBuilder()
+export const command = new SlashCommandBuilder()
     .setName('ping')
     .setDefaultMemberPermissions()
     .setDescription('ping command!')
 
-export const action =async (ctx) =>{
+export const actions =async (ctx) =>{
     ctx.reply('pong');
 }
